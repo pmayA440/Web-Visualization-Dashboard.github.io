@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Humidity Vs. Latitiude</title>
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- custom style sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" id="Latitiude" href="index.html">Latitiude</a>
+                  </div>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="Viz1.html">Temperature vs. Latitiude</a></li>
+                                <li><a href="Viz2.html">Wind vs. Latitiude</a></li>
+                                <li><a href="Viz3.html">Cloudiness vs. Latitiude</a></li>
+                                <li><a href="Viz4.html">Humidity vs. Latitiude</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="Comps.html">Comparison</a></li>
+                            <li><a href="Data.html">Data</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+    </nav>
+    <!-- Header -->
+    <div class="row">
+        <div class="container-fluid">
+            <div class="leftcolumn">
+                <div class="card">    
+                    <h1>Summary: Humidity Vs. Latitiude</h1>
+                    <hr>
+                    <!-- Project description -->
+                    <div class="content"> 
+                        <img src="HumVsLat.png" width="350" alt="HumVsLat"></img> 
+                        <p>This graphic shows the relationship between Humidity, as a precentage, and latitude for each randomly chosen city. <strong>Our take:</strong> <em>Humidity does appear to be related to latitude - the higher the latitude, the greater the humidity level.</em></p>
+                        <br>
+                    </div>  
+                </div>    
+            </div>
+            <div class="rightcolumn">
+                    <div class="card">    
+                        <h1>Visualizations</h1>
+                        <hr>
+                        <div class="content">
+                                <a href="Viz3.html">
+                                   <img class="topcolumn" width="150" src="CloudVsLat.png" alt="Cloudiness vs latitude viz"></img>
+                                </a> 
+                                <a href="Viz4.html">
+                                    <img class="topcolumn" width="150" src="HumVsLat.png" alt="Humidity vs latitude viz"></img>
+                                </a>
+                                <a href="Viz1.html">
+                                    <img class="bottomcolumn" width="150" src="TempVsLat.png" alt="Temperature vs latitude viz"></img>
+                                </a>
+                                <a href="Viz2.html">
+                                    <img class="bottomcolumn" width="150" src="WindVsLat.png" alt="Wind vs latitude viz"></img></p>
+                                </a>
+                            </div>    
+                    </div>
+                </div>
+        </div>  
+    </div>      
+</body>
+</html>
